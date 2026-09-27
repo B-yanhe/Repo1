@@ -1,0 +1,14 @@
+# OS / editor noise
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.swp
+
+# Launcher scratch output
+# (dsh-web.ps1 -LogDir targets, icon previews, temporary verification dirs;
+#  the launcher's own default log directory lives outside this repo, in
+#  %LOCALAPPDATA%\DeepSeekHarness)
+.test-logs/
+.verify/
+.preview.png
+*.log

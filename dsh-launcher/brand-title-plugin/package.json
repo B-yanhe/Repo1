@@ -1,0 +1,20 @@
+{
+  "name": "dsh-brand-title",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pin the DeepSeek Harness browser/window title to the product name instead of the current session title.",
+  "license": "MIT",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "client": {
+      "platform": "web",
+      "immediately": true
+    }
+  }
+}
